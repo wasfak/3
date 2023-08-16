@@ -1,0 +1,33 @@
+.teammember__container {
+  background-color: #1d1d1d;
+  margin-top: 0;
+  height: 100vh;
+  padding: 65px;
+  overflow-y: hidden;
+  text-align: center;
+
+  transition: transform 0.2s;
+}
+
+.teammember__images {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 10px; /* Add a small gap between the images */
+
+  padding: 10px; /* Add some padding around the images */
+}
+
+.teammember__image {
+  border: 1px solid salmon;
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 20px gold;
+}
+
+.teammember__container h2 {
+  color: wheat;
+
+  font-weight: 600;
+  font-size: 35px;
+}

@@ -1,0 +1,56 @@
+.hero__container {
+  background-color: #1d1d1d;
+  margin-top: 0;
+  padding: 65px;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__h2 {
+  color: wheat;
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 75px;
+}
+
+.hero__h4 {
+  color: wheat;
+  font-size: 20px;
+}
+.hero__btn button {
+  margin-top: 35px;
+  padding: 20px;
+  background-color: #06d889;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+.hero__btn button a {
+  text-decoration: none;
+  color: wheat;
+}
+.hero___img img {
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+}
+
+.hero__left {
+  display: block;
+}
+
+.hero__social {
+  margin-top: 10px;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  justify-content: center;
+}
+.fb {
+  width: 30px;
+  height: 30px;
+  margin: 12px;
+  cursor: pointer;
+}
