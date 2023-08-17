@@ -1,0 +1,44 @@
+.teammember__container {
+  background-color: #1d1d1d;
+  margin-top: 0;
+  height: 100vh;
+  padding: 65px;
+  overflow-y: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+
+  align-items: center;
+}
+.teammember__container h2 {
+  color: white;
+  font-size: 36px;
+}
+
+.teammember__images {
+  padding: 30px;
+}
+
+.pic__container {
+  width: 75vw;
+  margin-left: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.teammember__images h2 {
+  color: white;
+
+  font-size: 35px;
+  display: block;
+}
+
+.teammember__images img {
+  border: 1px solid #06d889;
+  border-radius: 8px;
+}
+.teammember__images h4 {
+  color: white;
+  display: block;
+
+  font-size: 15px;
+}

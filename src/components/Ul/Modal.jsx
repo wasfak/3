@@ -1,4 +1,5 @@
-import portfolios from "../../assets/data/portfolioData";
+import portfolios from "../../assets/data/port2";
+
 const Modal = ({ activeID, setShowModal }) => {
   const portfolio = portfolios.find((portfolio) => portfolio.id === activeID);
   return (
@@ -16,8 +17,8 @@ const Modal = ({ activeID, setShowModal }) => {
           <p className="text-[15px] leading-7 text-smallTextColor">
             {portfolio.description}
           </p>
-          <a href="#">
-            <button className="bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor easy-in duration-300">
+          <a href={portfolio.siteUrl} target="_blank" rel="noreferrer">
+            <button className="bg-primaryColor text-white py-2 px-4 mb-5 rounded-[8px] font-[500] hover:bg-headingColor easy-in duration-300">
               Live Site
             </button>
           </a>

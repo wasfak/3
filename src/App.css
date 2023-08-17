@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: "Urbanist", sans-serif;
@@ -17,12 +18,15 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
+  overflow-x: hidden;
 }
 
 section {
+  overflow-x: hidden;
 }
 
 .sticky__header {
+  overflow-x: hidden;
   width: 100%;
   height: 80px;
   line-height: 80px;

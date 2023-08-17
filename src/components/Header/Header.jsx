@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useRef, useEffect } from "react";
 
 const Header = () => {
@@ -32,7 +33,7 @@ const Header = () => {
   return (
     <header
       ref={headerRef}
-      className="w-full h-[80px] leading-[80px] flex items-center bg-[#fff]"
+      className="w-full h-[80px] leading-[80px] flex items-center bg-[#1d1d1d]"
     >
       <div className="container">
         <div className="flex items-center justify-between">
@@ -41,12 +42,8 @@ const Header = () => {
               S
             </span>
             <div className="leading-[20px]">
-              <h2 className="text-xl text-smallTextColor font-[700]">
-                Standards
-              </h2>
-              <p className="text-smallTextColor text-[14px] font-[500] ">
-                group
-              </p>
+              <h2 className="text-xl text-white font-[700]">Standards</h2>
+              <p className="text-white text-[14px] font-[500] ">group</p>
             </div>
           </div>
           <div className="menu">
@@ -54,16 +51,25 @@ const Header = () => {
               <li>
                 <a
                   onClick={handelClick}
-                  className="text-smallTextColor font-[600]"
-                  href="#about"
+                  className="text-white font-[400] hover:text-[#06d889] ease-in-out"
+                  href="#home"
                 >
-                  About
+                  Home
                 </a>
               </li>
               <li>
                 <a
                   onClick={handelClick}
-                  className="text-smallTextColor font-[600]"
+                  className="text-white font-[400] hover:text-[#06d889]"
+                  href="#approach"
+                >
+                  Approach
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={handelClick}
+                  className="text-white font-[400] hover:text-[#06d889]"
                   href="#services"
                 >
                   Services
@@ -72,7 +78,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handelClick}
-                  className="text-smallTextColor font-[600]"
+                  className="text-white font-[400] hover:text-[#06d889]"
                   href="#portfolio"
                 >
                   Portfolio
@@ -81,7 +87,16 @@ const Header = () => {
               <li>
                 <a
                   onClick={handelClick}
-                  className="text-smallTextColor font-[600]"
+                  className="text-white font-[400] hover:text-[#06d889]"
+                  href="#members"
+                >
+                  Members
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={handelClick}
+                  className="text-white font-[400] hover:text-[#06d889]"
                   href="#contact"
                 >
                   Contact
@@ -90,7 +105,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-text-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] easy-in duration-300 ">
+            <button className="flex items-center gap-2 text-white font-[600] border border-solid border-text-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-[#06d889] hover:text-white hover:font-[500] easy-in duration-300 ">
               <i className="ri-send-plane-line"></i> Let's Talk
             </button>
             <span className="text-2xl text-smallTextColor md:hidden cursor-pointer ">

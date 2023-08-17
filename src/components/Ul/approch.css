@@ -1,18 +1,21 @@
 .app__container {
   margin-top: 0;
   background-color: #1d1d1d;
-  padding: 65px;
+  padding-bottom: 65px;
+  padding-left: 65px;
+  padding-right: 65px;
+  height: 100vh;
   overflow-x: hidden;
 }
 .app__h2 {
-  color: wheat;
+  color: white;
   font-weight: 600;
   font-size: 35px;
   padding: 20px;
 }
 .app__h2 h4 {
   margin: 0;
-  color: wheat;
+  color: white;
   font-size: 18px;
 }
 
@@ -26,17 +29,21 @@
   display: flex;
   justify-content: space-between;
   justify-items: center;
+
+  margin-top: 30px;
 }
 .app__h {
   margin-top: 30px;
 }
 
 .app__h h2 {
-  font-size: 40px;
-  color: wheat;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
 }
 .app__h h4 {
-  color: wheat;
+  color: white;
   font-size: 18px;
 }
 .img-2 {
@@ -48,5 +55,5 @@
 .line {
   width: 300px;
 
-  border: 1px solid wheat;
+  border: 2px solid #06d889;
 }

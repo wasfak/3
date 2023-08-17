@@ -8,14 +8,14 @@
 }
 
 .hero__h2 {
-  color: wheat;
+  color: white;
   margin-top: 28px;
   font-weight: 600;
-  font-size: 75px;
+  font-size: 50px;
 }
 
 .hero__h4 {
-  color: wheat;
+  color: white;
   font-size: 20px;
 }
 .hero__btn button {
@@ -28,7 +28,7 @@
 }
 .hero__btn button a {
   text-decoration: none;
-  color: wheat;
+  color: white;
 }
 .hero___img img {
   width: 450px;
@@ -42,7 +42,7 @@
 
 .hero__social {
   margin-top: 10px;
-  color: wheat;
+  color: #06d889;
   display: flex;
   flex-direction: column;
   width: 80px;
@@ -53,4 +53,45 @@
   height: 30px;
   margin: 12px;
   cursor: pointer;
+}
+
+.bg-box {
+  display: inline-block;
+  background-color: #06d889;
+  width: 280px;
+  margin-bottom: 0px;
+  border-top-right-radius: 15px;
+}
+
+.bg-box {
+  display: inline-block;
+  background-color: #06d889;
+  width: 280px;
+  margin-bottom: 0px;
+  border-top-right-radius: 15px;
+  color: white;
+}
+
+.dynamic-bg {
+  background: linear-gradient(90deg, #06d889, #1a8cb7, #ffcc29, #ff655b);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 0%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

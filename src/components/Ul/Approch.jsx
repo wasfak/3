@@ -2,7 +2,7 @@ import banner from "../../assets/images/portfolio-03.jpg";
 import "./approch.css";
 const Approch = () => {
   return (
-    <section className="app__container">
+    <section className="app__container" id="approach">
       <div className="app__h2">
         <h2>Our Approach</h2>
         <h4>

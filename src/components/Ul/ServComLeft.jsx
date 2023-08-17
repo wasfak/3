@@ -8,7 +8,7 @@ const ServComLeft = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="1200"
-              className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer easy-in duration-150"
+              className="bg-white p-4 rounded shadow group hover:bg-[#06d889] cursor-pointer easy-in duration-150"
             >
               <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[500] text-2xl">
                 Frotend Development

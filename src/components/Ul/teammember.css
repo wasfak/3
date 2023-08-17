@@ -12,22 +12,22 @@
 .teammember__images {
   display: flex;
   justify-content: center; /* Center the images horizontally */
-  gap: 10px; /* Add a small gap between the images */
+  gap: 50px; /* Add a small gap between the images */
 
   padding: 10px; /* Add some padding around the images */
 }
 
 .teammember__image {
-  border: 1px solid salmon;
-  width: 350px;
-  height: 350px;
+  border: 1px solid gray;
+  width: 300px;
+  height: 300px;
   border-radius: 5px;
   box-shadow: 20px gold;
 }
 
 .teammember__container h2 {
   color: wheat;
-
+  margin: 50px;
   font-weight: 600;
   font-size: 35px;
 }
